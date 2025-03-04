@@ -64,6 +64,10 @@ header {
     border-radius: 10px;
 }
 
+.poem strong {
+    color: #885df1;
+}
+
 footer {
     text-align: center;
     font-size: 13px;
