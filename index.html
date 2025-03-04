@@ -14,8 +14,9 @@
 <h1>AI English Poem Generator</h1> 
 </header>
 <main>
+<div class="form-container">
 <form id="poem-generator-form">
-<input type="text" placeholder="Enter the topic of the poem" 
+<input type="text" placeholder="Enter the topic of a english poem" 
 autofocus 
 required 
 autocomplete="off" 
@@ -23,7 +24,9 @@ class="instructions"
 id="user-instructions" />
 <input type="submit" class="submit-button" />
 </form>
-<div class="poem" id="poem"></div>
+<div class="hint">i.e: Gold, London 0r Happiness</div>
+</div>
+<div class="poem hidden" id="poem"></div>
 </main>
 <footer>
 This AI project was coded by <a href="https://github.com/delightteekay/" target="_blank">Delight Tshirando</a> 
